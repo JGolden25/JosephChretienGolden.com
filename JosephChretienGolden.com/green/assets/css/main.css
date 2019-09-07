@@ -1379,6 +1379,10 @@ input, select, textarea {
 			.panel {
 				width: 75em;
 			}
+			.panel-img {
+				max-width: calc(100vw - 2em);
+				width: 31em;
+			}
 
 				.panel > .image {
 					min-height: 45em;
@@ -1391,7 +1395,10 @@ input, select, textarea {
 			.panel {
 				max-width: calc(100vw - 3em);
 			}
-
+			 .panel-img {
+				max-width: calc(100vw - 2em);
+				width: 29em;
+			}
 				.panel > .image {
 					min-height: 35em;
 				}
@@ -1401,6 +1408,7 @@ input, select, textarea {
 				}
 
 		}
+		
 
 		@media screen and (max-width: 980px) {
 
@@ -1409,6 +1417,10 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
+			}
+			.panel-img {
+				max-width: calc(100vw - 2em);
+				width: 28em;
 			}
 
 				.panel > .image {
@@ -1448,6 +1460,10 @@ input, select, textarea {
 				max-width: calc(100vw - 2em);
 				width: 30em;
 			}
+			.panel-img {
+				max-width: calc(100vw - 2em);
+				width: 27em;
+			}
 
 				.panel > .image {
 					min-height: 18em;
@@ -1468,6 +1484,10 @@ input, select, textarea {
 
 			.panel > .content {
 				padding: 2em 1.5em;
+			}
+			.panel-img {
+				max-width: calc(100vw - 2em);
+				width: 26em;
 			}
 
 		}
