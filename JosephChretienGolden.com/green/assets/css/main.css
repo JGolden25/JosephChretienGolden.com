@@ -1263,6 +1263,26 @@ input, select, textarea {
 		max-width: calc(100vw - 6em);
 		width: 86em;
 	}
+	.panel-img {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: -moz-stretch;
+		-webkit-align-items: -webkit-stretch;
+		-ms-align-items: -ms-stretch;
+		align-items: stretch;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+		-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+		-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+		transition: opacity 0.5s ease, transform 0.5s ease;
+		max-width: calc(100vw - 6em);
+		width: 86em;
+	}
 
 		.panel > .image {
 			-moz-transition: -moz-transform 0.5s ease;
@@ -1496,6 +1516,10 @@ input, select, textarea {
 
 			.panel > .image {
 				min-height: 15em;
+			}
+			.panel-img {
+				min-height: 15em;
+				min-width: 15em;
 			}
 
 		}
