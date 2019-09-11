@@ -1243,6 +1243,8 @@ input, select, textarea {
 
 /* Panel */
 
+
+
 	.panel {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1393,15 +1395,15 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
+			
 
-		@media screen and (max-width: 1680px) {
+		@media only screen and (max-width: 1680px) {
 
 			.panel {
 				width: 75em;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 31em;
+				width: 75em;
 			}
 
 				.panel > .image {
@@ -1410,14 +1412,15 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media only screen and (max-width: 1280px) {
 
 			.panel {
 				max-width: calc(100vw - 3em);
 			}
 			 .panel-img {
 				max-width: calc(100vw - 2em);
-				width: 29em;
+				
+				min-width: 15em;
 			}
 				.panel > .image {
 					min-height: 35em;
@@ -1430,7 +1433,7 @@ input, select, textarea {
 		}
 		
 
-		@media screen and (max-width: 980px) {
+		@media only screen and (max-width: 980px) {
 
 			.panel {
 				-moz-flex-direction: column;
@@ -1441,6 +1444,7 @@ input, select, textarea {
 			.panel-img {
 				max-width: calc(100vw - 2em);
 				width: 28em;
+				min-width: 15em;
 			}
 
 				.panel > .image {
@@ -1474,7 +1478,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media only screen and (max-width: 736px) {
 
 			.panel {
 				max-width: calc(100vw - 2em);
@@ -1483,6 +1487,7 @@ input, select, textarea {
 			.panel-img {
 				max-width: calc(100vw - 2em);
 				width: 27em;
+				min-width: 15em;
 			}
 
 				.panel > .image {
@@ -1500,27 +1505,40 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media only screen and (max-width: 480px) {
 
 			.panel > .content {
 				padding: 2em 1.5em;
 			}
 			.panel-img {
 				max-width: calc(100vw - 2em);
-				width: 26em;
+				width: 27em;
+				min-width: 15em;
 			}
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media only screen and (max-width: 360px) {
 
 			.panel > .image {
 				min-height: 15em;
 			}
 			.panel-img {
-				min-height: 15em;
+				max-width: calc(100vw - 2em);
+				width: 27em;
 				min-width: 15em;
 			}
+			
+
+		}
+
+
+		@media only screen and (min-width: 300px;) {
+
+			.panel > .image {
+				min-height: 15em;
+			}
+			
 
 		}
 
