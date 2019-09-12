@@ -1403,9 +1403,9 @@ input, select, textarea {
 				width: 75em;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 27em;
-				min-width: 15em;
+				max-width: calc(110vw - 2em);
+				width: 33em;
+				min-width: 18em;
 			}
 
 				.panel > .image {
@@ -1420,9 +1420,10 @@ input, select, textarea {
 				max-width: calc(100vw - 3em);
 			}
 			 .panel-img {
-				max-width: calc(100vw - 2em);
-				
-				min-width: 15em;
+				max-width: calc(95vw - 2em);
+				width: 20em;
+				min-width: 16em;
+				position: center;
 			}
 				.panel > .image {
 					min-height: 35em;
@@ -1434,7 +1435,7 @@ input, select, textarea {
 
 		}
 		
-
+		
 		@media only screen and (max-width: 980px) {
 
 			.panel {
@@ -1444,10 +1445,10 @@ input, select, textarea {
 				flex-direction: column;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 23em;
-				min-width: 15em;
-				position: relative;
+				max-width: calc(95vw - 2em);
+				width: 20em;
+				min-width: 16em;
+				position: center;
 			}
 
 				.panel > .image {
@@ -1489,7 +1490,7 @@ input, select, textarea {
 			}
 			.panel-img {
 				max-width: calc(95vw - 2em);
-				width: 23em;
+				width: 20em;
 				min-width: 16em;
 				position: center;
 			}
