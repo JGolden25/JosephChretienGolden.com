@@ -1403,7 +1403,9 @@ input, select, textarea {
 				width: 75em;
 			}
 			.panel-img {
-				width: 75em;
+				max-width: calc(110vw - 2em);
+				width: 33em;
+				min-width: 18em;
 			}
 
 				.panel > .image {
@@ -1418,9 +1420,10 @@ input, select, textarea {
 				max-width: calc(100vw - 3em);
 			}
 			 .panel-img {
-				max-width: calc(100vw - 2em);
-				
-				min-width: 15em;
+				max-width: calc(95vw - 2em);
+				width: 20em;
+				min-width: 16em;
+				position: center;
 			}
 				.panel > .image {
 					min-height: 35em;
@@ -1432,7 +1435,7 @@ input, select, textarea {
 
 		}
 		
-
+		
 		@media only screen and (max-width: 980px) {
 
 			.panel {
@@ -1442,9 +1445,10 @@ input, select, textarea {
 				flex-direction: column;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 28em;
-				min-width: 15em;
+				max-width: calc(95vw - 2em);
+				width: 20em;
+				min-width: 16em;
+				position: center;
 			}
 
 				.panel > .image {
@@ -1485,9 +1489,10 @@ input, select, textarea {
 				width: 30em;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 27em;
-				min-width: 15em;
+				max-width: calc(95vw - 2em);
+				width: 20em;
+				min-width: 16em;
+				position: center;
 			}
 
 				.panel > .image {
@@ -1505,15 +1510,18 @@ input, select, textarea {
 
 		}
 
+		
+
 		@media only screen and (max-width: 480px) {
 
 			.panel > .content {
 				padding: 2em 1.5em;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 27em;
-				min-width: 15em;
+				max-width: calc(93vw - 2em);
+				width: 22em;
+				position: center;
+				min-width: 16em;
 			}
 
 		}
@@ -1524,8 +1532,9 @@ input, select, textarea {
 				min-height: 15em;
 			}
 			.panel-img {
-				max-width: calc(100vw - 2em);
-				width: 27em;
+				max-width: calc(80vw - 2em);
+				width: 20em;
+				position: center;
 				min-width: 15em;
 			}
 			
@@ -1533,14 +1542,7 @@ input, select, textarea {
 		}
 
 
-		@media only screen and (min-width: 300px;) {
-
-			.panel > .image {
-				min-height: 15em;
-			}
-			
-
-		}
+		
 
 		body.is-preload-0 .panel {
 			opacity: 0;
