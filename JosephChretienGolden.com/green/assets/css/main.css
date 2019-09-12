@@ -1416,6 +1416,7 @@ input, select, textarea {
 
 				.panel {
 					width: 101em;
+					background-color: #8b9dc3
 				}
 				.panel-img {
 					max-width: calc(135vw - 2em);
