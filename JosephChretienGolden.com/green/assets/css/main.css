@@ -1396,11 +1396,26 @@ input, select, textarea {
 				width: 100%;
 			}
 			
+		@media only screen and (max-width: 1920px) {
 
+				.panel {
+					width: 100em;
+				}
+				.panel-img {
+					max-width: calc(135vw - 2em);
+					width: 33em;
+					min-width: 18em;
+				}
+	
+					.panel > .image {
+						min-height: 45em;
+					}
+	
+			}
 		@media only screen and (max-width: 1680px) {
 
 			.panel {
-				width: 75em;
+				width: 200em;
 			}
 			.panel-img {
 				max-width: calc(110vw - 2em);
