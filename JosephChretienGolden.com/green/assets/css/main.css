@@ -1415,7 +1415,7 @@ input, select, textarea {
 		@media only screen and (max-width: 1920px) {
 
 				.panel {
-					width: 100em;
+					width: 101em;
 				}
 				.panel-img {
 					max-width: calc(135vw - 2em);
