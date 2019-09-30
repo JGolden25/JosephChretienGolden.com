@@ -1493,8 +1493,8 @@ input, select, textarea {
 				flex-direction: column;
 			}
 			.panel-img {
-				max-width: calc(95vw - 2em);
-				width: 20em;
+				max-width: calc(130vw - 2em);
+				width: 27em;
 				min-width: 16em;
 				position: center;
 			}
@@ -1537,9 +1537,9 @@ input, select, textarea {
 				width: 30em;
 			}
 			.panel-img {
-				max-width: calc(95vw - 2em);
-				width: 20em;
-				min-width: 16em;
+				max-width: calc(120vw - 2em);
+				width: 23em;
+				min-width: 18em;
 				position: center;
 			}
 
